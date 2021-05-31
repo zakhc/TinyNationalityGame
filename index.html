@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Guess the nationality</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  <script src="js/index.js" defer></script>
+
+</head>
+
+<body>
+<section class="draggable-elements">
+  <img src="images/angelababy_chinese_actress.jpg" class="draggable" draggable="true" id="chinese"></img>
+  <img src="images/bae_suzy_korean_actress.jpg" class="draggable" draggable="true" id="korean"></img>
+  <img src="images/deng_lun_chinese_actor.jpg" class="draggable" draggable="true" id="chinese"></img>
+  <img src="images/emi_takei_japanese_actress.jpg" class="draggable" draggable="true" id="japanese"></img>
+  <img src="images/fan_bingbing_chinese_actress.jpg" class="draggable" draggable="true" id="chinese"></img>
+  <img src="images/hyun_bin_korean_actor.jpg" class="draggable" draggable="true" id="korean"></img>
+  <img src="images/kasumi_arimura_japanese_actress.jpg" class="draggable" draggable="true" id="japanese"></img>
+  <img src="images/lee_min_ho_korean_actor.jpg" class="draggable" draggable="true" id="korean"></img>
+  <img src="images/mookda_narinrak_thai_actress.jpg" class="draggable" draggable="true" id="chinese"></img>
+  <img src="images/nadech_kugimiya_thai_actor.jpg" class="draggable" draggable="true" id="chinese"></img>
+  <img src="images/phupoom_pongpanu_thai_actor.jpg" class="draggable" draggable="true" id="chinese"></img>
+  <img src="images/ranee_campen_thai_actress.jpg" class="draggable" draggable="true" id="chinese"></img>
+  <img src="images/sean_xiao_chinese_actor.jpg" class="draggable" draggable="true" id="chinese"></img>
+  <img src="images/son_ye_jin_korean_actress.jpg" class="draggable" draggable="true" id="korean"></img>
+  <img src="images/sota_fukushi_japanese_actor.jpg" class="draggable" draggable="true" id="japanese"></img>
+  <img src="images/takeru_satoh_japanese_actor.jpg" class="draggable" draggable="true" id="japanese"></img>
+  <div src="images/yang_yang_chinese_actor.jpg" class="draggable" id="dummy"></div>
+
+</section>
+<section class="droppable-elements">
+  <div class="droppable chinese-box" data-draggable-id="chinese"><span>Chinese</span></div>
+  <div class="droppable korean-box" data-draggable-id="korean"><span>Korean</span></div>
+  <div class="droppable thai-box" data-draggable-id="thai"><span>Thai</span></div>
+  <div class="droppable japanese-box" data-draggable-id="japanese"><span>Japanese</span></div>
+</section>
+<section class="scoreSection">
+  <h3 class="scoreDiv">
+    Total score: <span id='totalScore'>0</span>
+  </h3>
+</section>
+<section class="modal">
+  <div class="finalScoreDiv">
+    <h2>Your score:<span id="finalScore">0</span></h2>
+
+    <button class='playagain' onclick="playAgain()">Play again!</button>
+  </div>
+</section>
+</body>
+</html>
