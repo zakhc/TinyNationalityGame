@@ -115,7 +115,7 @@ function Animate(element, timeoutDuration, counter, totalElements) {
     element.animate([
       // keyframes
       { transform: 'translateY(0px)' },
-      { transform: 'translateY(' + (screen.height - 200) + 'px)' } // 200 for safe screen overflow offset
+      { transform: 'translateY(' + (screen.height - 300) + 'px)' } // 300 for safe screen overflow offset
     ], {
       // timing options
       duration: 3000,

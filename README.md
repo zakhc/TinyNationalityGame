@@ -1,7 +1,7 @@
 # Tiny nationality guess game
 
 Tiny Nationality Game made for test
-Demo can be found  [here](https://zakhc.github.io/TinyNationalityGame/)
+[Demo can be found here](https://zakhc.github.io/TinyNationalityGame/)
 
 Details:
 - This is a static site using only native / vanilla tech no library or external package used.
